@@ -1,21 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 body {
     background-image: url(./img/pxfuel.com.jpg);
-   }
-    
+}
+
 .col-md-10 {
-    background-color: rgba(240, 58, 95, 0.363);
+    background-color: rgba(128, 40, 243, 0.192);
 }
 
 .col-15 {
     padding-top: 20px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;  
 }
+
 
 .col-sm {
     display: flex;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+    justify-content: space-evenly
 }
-    
+
+.card-portfolio{
+    background-color: rgba(137, 43, 226, 0.24);
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.iconos {
+    text-align: center;
+
+}
+
+.iconos .logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
