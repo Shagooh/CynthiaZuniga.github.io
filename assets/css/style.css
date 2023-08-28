@@ -43,3 +43,9 @@ body {
     justify-content: space-evenly;
 }
 
+footer {
+    text-align: center;
+    background-color: lightpink;
+    font-size: larger;
+    padding: 10px;
+}
